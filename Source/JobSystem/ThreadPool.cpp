@@ -1,5 +1,9 @@
 #include "ThreadPool.hpp"
 
+#include <functional>
+#include <unordered_map>
+#include <vector>
+
 namespace Chaf
 {
 ThreadPool::ThreadPool(uint32_t max_threads_num)
@@ -36,7 +40,7 @@ ThreadPool ::~ThreadPool()
 	}
 
 	m_condition.notify_all();
-	for (auto& worker : m_workers)
+	for (auto &worker : m_workers)
 	{
 		worker.join();
 	}
