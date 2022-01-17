@@ -1,0 +1,7 @@
+SetTarget(
+    MODE STATIC
+    TARGET_NAME JobSystem
+    DEFINE
+        PROJECT_SOURCE_DIR="${PROJECT_SOURCE_DIR}/"
+        NOMINMAX
+)
