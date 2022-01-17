@@ -1,6 +1,6 @@
 # JobSystem
 
-[![Windows](https://github.com/Chaphlagical/JobSystem/actions/workflows/windows.yml/badge.svg)](https://github.com/Chaphlagical/JobSystem/actions/workflows/windows.yml)
+[![Windows](https://github.com/Chaphlagical/JobSystem/actions/workflows/windows.yml/badge.svg)](https://github.com/Chaphlagical/JobSystem/actions/workflows/windows.yml) [![Ubuntu](https://github.com/Chaphlagical/JobSystem/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/Chaphlagical/JobSystem/actions/workflows/ubuntu.yml)
 
 A simple threading framework
 
