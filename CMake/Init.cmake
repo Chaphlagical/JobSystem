@@ -25,8 +25,6 @@ message(STATUS "include Init.cmake successfully")
 include("${CMAKE_CURRENT_LIST_DIR}/Build.cmake")
 include("${CMAKE_CURRENT_LIST_DIR}/Utility.cmake")
 include("${CMAKE_CURRENT_LIST_DIR}/Package.cmake")
-include("${CMAKE_CURRENT_LIST_DIR}/Git.cmake")
-include("${CMAKE_CURRENT_LIST_DIR}/Download.cmake")
 
 macro(Init_Project)
     set(CMAKE_DEBUG_POSTFIX d)
