@@ -2,6 +2,7 @@
 
 #include "ConcurrentQueue.hpp"
 
+#include <functional>
 #include <future>
 #include <unordered_map>
 #include <vector>

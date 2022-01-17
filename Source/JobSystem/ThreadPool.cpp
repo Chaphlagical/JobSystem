@@ -1,7 +1,5 @@
 #include "ThreadPool.hpp"
 
-#include <functional>
-
 namespace Chaf
 {
 ThreadPool::ThreadPool(uint32_t max_threads_num)
