@@ -1,4 +1,7 @@
 # JobSystem
+
+[![Windows](https://github.com/Chaphlagical/JobSystem/actions/workflows/windows.yml/badge.svg)](https://github.com/Chaphlagical/JobSystem/actions/workflows/windows.yml)
+
 A simple threading framework
 
 ## Build
