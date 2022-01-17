@@ -3,6 +3,8 @@
 #include "ConcurrentQueue.hpp"
 
 #include <future>
+#include <unordered_map>
+#include <vector>
 
 namespace Chaf
 {
@@ -34,7 +36,7 @@ class ThreadPool
 	}
 
   private:
-	ConcurrentQueue<std::function<void()>, 1024>       m_task_queue;
+	ConcurrentQueue<std::function<void()>, 1024>      m_task_queue;
 	std::unordered_map<std::thread::id, const char *> m_thread_names;
 
 	std::vector<std::thread> m_workers;
